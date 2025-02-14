@@ -14,6 +14,42 @@ st.logo(
 )
 st.title("Spotify theme")
 
+if st.checkbox("Enable CSS hacks", True):
+    st.html(
+        """
+        <style>
+        h1 {
+            font-size: 39.5px !important;
+            font-weight: 900 !important;
+        }
+        
+        h2 {
+            font-size: 32px !important;
+            font-weight: 700 !important;
+        }
+        
+        h3 {
+            font-size: 24px !important;
+            font-weight: 700 !important;
+        }
+        
+        .stButton button, .stDownloadButton button, .stLinkButton a {
+            border-radius: 1.6rem !important;
+        }
+        
+        .stButton button:hover, .stDownloadButton button:hover, .stLinkButton a:hover {
+            border-color: #fff !important;
+            color: inherit !important;
+        }
+        
+        .stButton button[kind="primary"]:hover, .stDownloadButton button[kind="primary"]:hover, .stLinkButton a[kind="primary"]:hover {
+            border-color: #1ED760 !important;
+        }
+        </style>
+        """
+    )
+    
+
 
 def page1():
     pass
