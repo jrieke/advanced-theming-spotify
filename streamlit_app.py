@@ -45,6 +45,28 @@ if st.checkbox("Enable CSS hacks", True):
         .stButton button[kind="primary"]:hover, .stDownloadButton button[kind="primary"]:hover, .stLinkButton a[kind="primary"]:hover {
             border-color: #1ED760 !important;
         }
+        
+        [data-testid="stBaseButton-pills"] {
+            background-color: #2a2a2a !important;
+            border: none !important;
+        }
+        
+        [data-testid="stBaseButton-pills"]:hover {
+            background-color: #333333 !important;
+            color: inherit !important;
+        }
+        
+        [data-testid="stBaseButton-pillsActive"] {
+            background-color: #ffffff !important;
+            color: #000000 !important;
+            border: none !important;
+        }
+        
+        [data-testid="stBaseButton-pillsActive"]:hover {
+            background-color: #ffffff !important;
+            color: #000000 !important;
+        }
+    
         </style>
         """
     )
