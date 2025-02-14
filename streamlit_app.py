@@ -8,7 +8,7 @@ import plotly.express as px
 import pydeck as pdk
 import streamlit as st
 
-st.set_page_config("Spotify theme", "🎈", initial_sidebar_state="collapsed")
+st.set_page_config("Spotify theme", "🎵", initial_sidebar_state="collapsed")
 st.logo(
     "https://upload.wikimedia.org/wikipedia/commons/2/26/Spotify_logo_with_text.svg"
 )
