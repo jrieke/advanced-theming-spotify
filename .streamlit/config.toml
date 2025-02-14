@@ -2,12 +2,6 @@
 enableStaticServing = true
 
 [theme]
-# Spotify
-# What's missing/doesn't look great:
-# - ✅ buttons are completely rounded, even though other elements are not
-# - ✅ when hovering buttons, only the border color becomes white
-# - ✅ header font sizes
-# - they use pills pretty heavily, but theirs have gray background and no border, become slightly lighter when hovering, and white when selected
 base = "dark"
 primaryColor = "#1ED760"
 backgroundColor = "#121212"
