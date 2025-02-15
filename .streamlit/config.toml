@@ -15,7 +15,28 @@ showBorderAroundInputs = false
 roundness = 0.18
 font = "CircularSpotifyText"
 
+
+[[theme.fontFaces]]
+url = "app/static/CircularSpotifyText-Light.otf"
+family = "CircularSpotifyText"
+weight = 300
+
+[[theme.fontFaces]]
+url = "app/static/CircularSpotifyText-Book.otf"
+family = "CircularSpotifyText"
+weight = 400
+
 [[theme.fontFaces]]
 url = "app/static/CircularSpotifyText-Medium.otf"
 family = "CircularSpotifyText"
-style = "normal"
+weight = 500
+
+[[theme.fontFaces]]
+url = "app/static/CircularSpotifyText-Bold.otf"
+family = "CircularSpotifyText"
+weight = 700
+
+[[theme.fontFaces]]
+url = "app/static/CircularSpotifyText-Black.otf"
+family = "CircularSpotifyText"
+weight = 900
