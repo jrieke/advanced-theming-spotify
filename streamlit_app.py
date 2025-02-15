@@ -33,7 +33,7 @@ if st.checkbox("Enable CSS hacks", True):
             font-weight: 700 !important;
         }
         
-        .stButton button, .stDownloadButton button, .stLinkButton a {
+        .stButton button, .stDownloadButton button, .stLinkButton a, .stFormSubmitButton button {
             border-radius: 1.6rem !important;
         }
         
