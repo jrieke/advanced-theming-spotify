@@ -15,14 +15,7 @@ st.logo(
 st.title("Spotify theme")
 
 if st.checkbox("Enable CSS hacks", True):
-    titleFontSize = "39.5px"
-    titleFontWeight = "900"
-    headerFontSize = "32px"
-    headerFontWeight = "700"
-    subheaderFontSize = "24px"
-    subheaderFontWeight = "700"
     
-    buttonBorderRadius = "1.6rem"
     secondaryButtonHoverBorderColor = "#ffffff"
     # TODO: Maybe don't want to allow "inherit" here but just an explicit color. 
     secondaryButtonHoverTextColor = "inherit"
@@ -43,24 +36,6 @@ if st.checkbox("Enable CSS hacks", True):
     st.html(
         f"""
         <style>
-        h1 {{
-            font-size: {titleFontSize} !important;
-            font-weight: {titleFontWeight} !important;
-        }}
-        
-        h2 {{
-            font-size: {headerFontSize} !important;
-            font-weight: {headerFontWeight} !important;
-        }}
-        
-        h3 {{
-            font-size: {subheaderFontSize} !important;
-            font-weight: {subheaderFontWeight} !important;
-        }}
-        
-        .stButton button, .stDownloadButton button, .stLinkButton a, .stFormSubmitButton button {{
-            border-radius: {buttonBorderRadius} !important;
-        }}
         
         .stButton button[kind="secondary"]:hover, .stDownloadButton button[kind="secondary"]:hover, .stLinkButton a[kind="secondary"]:hover, .stFormSubmitButton button[kind="secondary"]:hover {{
             border-color: {secondaryButtonHoverBorderColor} !important;

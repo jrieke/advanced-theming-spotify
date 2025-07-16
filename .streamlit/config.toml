@@ -12,6 +12,9 @@ borderColor = "#7F7F7F"
 showWidgetBorder = false
 baseRadius = "0.3rem"
 font = "CircularSpotifyText"
+headingFontSizes = ["39.5px", "32px", "24px"]
+headingFontWeights = [900, 700, 700]
+buttonRadius = "full"
 
 [theme.sidebar]
 backgroundColor = "#000000"
